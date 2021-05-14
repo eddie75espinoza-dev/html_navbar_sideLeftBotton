@@ -1,0 +1,37 @@
+:root{
+    --bg-primary: #2d2d2e;
+    --bg-sencondary: #000;
+    --text-primary: #b6b6b6;
+    --text-secondary: #ececec;
+    --fa-primary: #e4de34;
+    --fa-secondary: #979205;
+    --transition-speed: 600ms;
+}
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+main{
+    margin-left: 5rem;
+    padding: 1rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h1{
+    font-size: 2.5rem;
+}
+h2{
+    font-size: 2rem;
+}
+h6{
+    font-size: 1rem;
+}
+.card img{
+    max-width: 100%;
+}
+.card button a{
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: var(--bg-primary);
+
+}
